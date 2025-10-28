@@ -52,9 +52,10 @@ int main()
 
     printf("age: %d\n", age);
     printf("gender: %c\n", gender);
-    printf("health: %d\n", (health == 1) ? "healthy" : "unhealthy");
+    printf("health: %s\n", (health == 1) ? "healthy" : "unhealthy");
     printf("final premium: %.2f\n", premium);
 
     return 0;
 }
+
 
